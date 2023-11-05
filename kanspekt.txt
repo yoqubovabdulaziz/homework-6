@@ -1,0 +1,71 @@
+CSS FONTS
+font-style
+1-normal
+2-italic
+
+font-weigh
+1-100
+2-200
+3-until-900
+
+font-family
+1-standart fonts 
+serif (Times New Roman, Times, Georgia)
+san-serif (Arial, Verdana)
+monospace (Courier New, Monaco)
+cursive (Lucida Handwriting)
+fantasy (Papyrus)
+
+online 
+https://fonts.google.com/
+
+offline
+@font-face – ttf, otf, woff
+
+Link and button style
+1-- pseudo-classes (0-1-0) - link, visited, active, focus
+2-pseudo-classes - hover
+
+Transition 
+- property duration timing delay
+
+Non-semantic elements
+1-div
+2-span
+
+Semantic elements
+- h1-h6, p, img, a
+- header
+- nav
+- main
+- section
+- footer
+- article
+- aside
+- ~~form~~
+
+Design structure
+- Using maximal three colors is good.
+- The sides of the site should be flat.
+- On large screens, the site collapses to the middle.
+- Background-color is left behind.
+
+Container
+/* Figma width -> 1440px; */
+/* Figma padding -> 120px; */
+/* Container width -> 1440 - 2 * 120 = 1200px; */
+
+.container {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+Website
+
+- structure
+- CSS boilerplate
+- container
+- font
+- navbar
+
